@@ -1,0 +1,10 @@
+#
+# This file has mapping between semaphores files and
+# sound files. When given file presence will be detected
+# in 'semaphores_path' then phone-notifier will trigger
+# VoIP call and play corresponding wav file
+# Lines with # or ; are comments. '=' is separator between
+# fields.
+
+zm_alarm_call             = Alarm-Salon.wav
+s.m.a.r.t_alarm_call      = Alarm-SMART.wav
