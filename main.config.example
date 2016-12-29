@@ -3,12 +3,14 @@
 # Lines with # or ; are comments. '=' is separator between
 # fields.
 
-phone             = sip:<your phone>@<your sip provider>
-sip_registrar     = <sip regstrar>
-user              = <user id to registerin SIP registrar>
-password          = <password to registerin SIP registrar>
-sip_proxy         = sip:<IP of SIP proxy>. This is optional. Leave blank if You don't use SIP proxy
-bound_address     = <IP addr. to bound to>
-rtp_port          = <RTP port used for SIP media stream>. Usefull when You have firewall
-semaphores_path   = <prefix path with sepahores>
-sound_files_path  = <prefix patch with sound alarm files>
+phone             = sip:<phone_num>@<sip_provider_url>
+sip_registrar     = <sip registrar>
+user              = <sip account>
+password          = <sip acc.pass>
+sip_proxy         =
+bound_address     = <intf on which script communicates>
+rtp_port          = 10000
+semaphores_path   = /tmp/
+sound_files_path  = /usr/share/phone-notifier
+playback_duration = 15
+deaf_time_duration= 90

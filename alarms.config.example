@@ -6,5 +6,9 @@
 # Lines with # or ; are comments. '=' is separator between
 # fields.
 
-zm_alarm_call             = Alarm-Salon.wav
+zm_started_call           = ZM-Started.wav
+zm_stoped_call            = ZM-Stoped.wav
+zm_failed_call            = ZM-Failed.wav
+zm_alarm_call             = ZM-Alarm-Salon.wav
 s.m.a.r.t_alarm_call      = Alarm-SMART.wav
+test_call                 = Test-Call.wav
